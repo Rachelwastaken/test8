@@ -1,12 +1,13 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int i;
+    int a,b,i;
     cin>>i;
-    cout<<"一共输出"<<i<<"次"<<endl;
     while(i--){
-        cout << "Hello, World!" <<endl;
+        cin>>a>>b;
+        cout<<"长方形的面积为"<<a*b<<endl;
     }
+
 
     return 0;
 }
