@@ -7,7 +7,7 @@ int main() {
         cin>>a>>b;
         cout<<"长方形的面积为"<<a*b<<endl;
     }
-
+    ;cout<<"finish"<<endl;
 
     return 0;
 }
